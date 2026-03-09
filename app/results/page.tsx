@@ -50,7 +50,7 @@ function ResultsContent() {
       <main className="min-h-screen bg-slate-900 flex items-center justify-center">
         <div className="text-center">
           <p className="text-red-400 text-lg mb-4">{error}</p>
-          <button onClick={() => router.push("/home")} className="px-4 py-2 bg-blue-600 text-white rounded-lg">
+          <button onClick={() => router.push("/")} className="px-4 py-2 bg-blue-600 text-white rounded-lg">
             Try Again
           </button>
         </div>
