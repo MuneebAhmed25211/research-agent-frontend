@@ -62,7 +62,7 @@ function ResultsContent() {
     <main className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 p-6">
       <div className="max-w-4xl mx-auto">
         <div className="flex items-center justify-between mb-8">
-          <button onClick={() => router.push("/home")} className="text-slate-400 hover:text-white transition-colors text-sm">
+          <button onClick={() => router.push("/")} className="text-slate-400 hover:text-white transition-colors text-sm">
             ← New Research
           </button>
           <span className="text-slate-500 text-sm">AI Research Agent</span>
